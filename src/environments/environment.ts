@@ -7,7 +7,7 @@ import { KeycloakConfig } from 'keycloak-angular';
 
 // Add here your keycloak setup infos
 let keycloakConfig: KeycloakConfig = {
-  url: 'KEYCLOAK URL GOES HERE WITH PROTOCOL AND /auth/',
+  url: 'http://identity-default.35.196.153.68.nip.io/auth',
   realm: 'activiti',
   clientId: 'activiti'
 };
